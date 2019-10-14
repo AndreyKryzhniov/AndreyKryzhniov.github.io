@@ -1,0 +1,22 @@
+.navMenu {
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    .navMenu {
+        justify-content: space-around;
+    }
+    .link {
+        font-size: 17px;
+    }
+}
+
+
+

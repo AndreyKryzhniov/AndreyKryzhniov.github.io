@@ -1,0 +1,29 @@
+.letter {
+    width: 60%;
+    height: 300px;
+    background-color: #1f1f20;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.nameAndMail {
+    width: 100%;
+    height: 20%;
+    background-color: lightgray;
+}
+
+.message {
+    width: 100%;
+    height: 50%;
+    background-color: lightgray;
+}
+
+@media screen and (max-width: 800px) {
+
+    .letter {
+        width: 100%;
+    }
+}

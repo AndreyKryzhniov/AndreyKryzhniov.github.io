@@ -1,0 +1,22 @@
+.titleContainer {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    margin: inherit;
+    text-transform: capitalize;
+}
+
+.line {
+    background-color: aqua;
+    height: 1px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}

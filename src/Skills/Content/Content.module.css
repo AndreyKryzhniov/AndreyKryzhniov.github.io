@@ -1,0 +1,57 @@
+.specialization{
+    height: 80%;
+    width: 100%;
+    background-color: #252527;
+    display: flex;
+    justify-content: space-between;
+}
+
+.type {
+    height: 100%;
+    width: 250px;
+    border: 1px solid;
+}
+
+.description {
+    width: 100%;
+    height: 40%;
+    border: 1px solid salmon;
+}
+
+.nameAndLogo {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.logo {
+    width: 80px;
+    height: 100px;
+    background-color: lightgray;
+}
+
+.name {
+    margin-top: 50px;
+    background-color: lightgray;
+}
+
+@media screen and (max-width: 951px) {
+    .skills {
+        height: 100%;
+    }
+    .specialization {
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .type {
+        height: 100%;
+        margin-top: 10px;
+    }
+}
+

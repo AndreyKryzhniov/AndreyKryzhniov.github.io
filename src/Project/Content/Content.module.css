@@ -1,0 +1,68 @@
+.nameProject{
+    height: 70%;
+    width: 100%;
+    background-color: #1f1f20;
+    display: flex;
+    justify-content: space-between;
+}
+
+.type {
+    height: 100%;
+    width: 400px;
+}
+
+.description {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.view {
+    width: 100%;
+    height: 75%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: 100px;
+    background-color: lightgray;
+}
+
+.name {
+    margin-top: 50px;
+    background-color: lightgray;
+}
+
+.text {
+    background-color: chartreuse;
+}
+
+@media screen and (max-width: 1010px) {
+    .projects {
+        height: 100%;
+    }
+
+    .nameProject {
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .type {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 505px) {
+
+    .type {
+        width: 100%;
+    }
+}

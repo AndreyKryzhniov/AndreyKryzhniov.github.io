@@ -1,0 +1,24 @@
+.contacts {
+    height: 100vh;
+    min-height: 500px;
+    background-color: #1f1f20;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Bt {
+    width: 100px;
+    height: 40px;
+}
